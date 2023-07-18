@@ -1,12 +1,10 @@
 import React from "react";
-import ProductItem from "./ProductItem";
+
 import SampleProducts from "./SampleOutput.js";
-import { useParams } from "react-router-dom";
+
 import { Link } from "react-router-dom";
 
-export default function MediumBooks(props) {
-  const userId = useParams();
-  let { title, price, imageUrl, id } = props;
+export default function MediumBooks() {
   let myStyle = {
     width: "auto",
     height: "400px",

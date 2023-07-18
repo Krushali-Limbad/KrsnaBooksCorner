@@ -1,5 +1,5 @@
 import React from "react";
-import ProductItem from "./ProductItem";
+
 import SampleProducts from "./SampleOutput.js";
 import { Link } from "react-router-dom";
 

@@ -2,8 +2,6 @@ import React from "react";
 import ProductItem from "./ProductItem";
 import SampleProducts from "./SampleOutput.js";
 
-import { CartState } from "../Context/Context";
-
 // import SmallBooks from "./SmallBooks";
 // import MediumBooks from "./MediumBooks";
 // import BigBooks from "./BigBooks";

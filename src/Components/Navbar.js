@@ -16,10 +16,10 @@ export default function Navbar() {
     dispatch,
   } = CartState();
   // console.log(state);
-  const {
-    productState: { smallBooks, mediumBooks, bigBooks },
-    productDispatch,
-  } = CartState();
+  // const {
+  //   productState: { smallBooks, mediumBooks, bigBooks },
+  //   productDispatch,
+  // } = CartState();
   return (
     <div>
       <nav className="nav1">
